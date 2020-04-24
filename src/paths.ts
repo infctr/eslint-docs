@@ -10,7 +10,7 @@ export interface Paths {
 type Handlers = { [K in keyof Paths]: (projectRoot: string) => string }
 
 export const handlers: Handlers = {
-  rulesDir: projectRoot => join(projectRoot, 'lib', 'rules'),
+  rulesDir: projectRoot => join(projectRoot, 'src', 'rules'),
   docsDir: projectRoot => join(projectRoot, 'docs', 'rules'),
   readmePath: projectRoot => join(projectRoot, 'README.md'),
   pluginName: projectRoot =>

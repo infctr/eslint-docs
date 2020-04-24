@@ -1,8 +1,8 @@
 {
-  "name": "eslint-docs",
+  "name": "@infctr/eslint-docs",
   "version": "0.4.0",
   "description": "Keep your rule names and descriptions up-to-date across your repo",
-  "homepage": "https://github.com/j-f1/eslint-docs",
+  "homepage": "https://github.com/infctr/eslint-docs",
   "author": {
     "name": "Jed Fox",
     "email": "git@twopointzero.us",
@@ -55,7 +55,7 @@
     "build": "rimraf dist && tsc && babel dist -d dist",
     "test": "yarn lint && yarn jest"
   },
-  "repository": "j-f1/eslint-docs",
+  "repository": "infctr/eslint-docs",
   "jest": {
     "testMatch": [
       "**/?(*.)+(spec|test).ts?(x)",
